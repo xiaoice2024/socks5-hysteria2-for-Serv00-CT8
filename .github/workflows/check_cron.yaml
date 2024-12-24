@@ -7,7 +7,7 @@ on:
 
 jobs:
   execute-commands:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04
     steps:
       - name: Set up SSHPass
         run: sudo apt-get update && sudo apt-get install -y sshpass
